@@ -14,8 +14,7 @@ python=python3
 # Set SVPROJECT_DIR to the location of your SimVascular project GitHub clone.
 #
 SVPROJECT_DIR=
-export PYTHONPATH=$PYTHONPATH:$SVPROJECT_DIR/SimVascular/Python/site-packages/sv_1d_simulation
-
+export PYTHONPATH=$PYTHONPATH:$SVPROJECT_DIR/home/jonathanpham/Documents/Marsden_Lab/SimVascular/Python/site-packages/sv_1d_simulation
 ## Files containing data input to the Python script.
 #
 input_dir=$PWD/example/input
