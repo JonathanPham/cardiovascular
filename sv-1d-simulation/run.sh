@@ -48,5 +48,6 @@ ${python} -m sv_1d_simulation.generate_1d_mesh \
     --outflow-bc-input-file ${outflow_bc_input_file} \
     --num-time-steps '2000' \
     --write-solver-file   \
+    --refine \
     --solver-output-file solver.in
 
